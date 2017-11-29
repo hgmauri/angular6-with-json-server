@@ -1,0 +1,27 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<table class="table" style="margin-top: 20px">
+    <thead>
+      <tr>
+        <th>Código</th>
+        <th>Nome</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let nome of nomes">
+        <td>{{ nome.id }}</td>
+        <td>{{ nome.nome }}</td>
+        <td>
+          <div class="input-group">
+            <span class="input-group-btn">
+              <button class="btn btn-primary">Atualizar</button>
+            </span>
+          </div>
+        </td>
+        <td>
+          <button class="btn btn-danger">Excluir</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
