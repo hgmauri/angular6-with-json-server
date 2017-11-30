@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { NomeService } from './nomes.service';
+import { NomeService } from './shared/services/nomes.service'
 
 @Component({
   selector: 'app-root',

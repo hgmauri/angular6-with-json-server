@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { NomeService } from './nomes.service';
+import { NomeService } from './shared/services/nomes.service';
+import { HeaderComponent } from './shared/components/header/header.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
