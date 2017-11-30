@@ -4,3 +4,10 @@ Simple Angular project
 
 - Angular 5
 - Angular CLI 1.5.0
+- Json Server
+
+Running the application
+- json-serve data.json (in the folder "/data")
+- npm serve
+
+
