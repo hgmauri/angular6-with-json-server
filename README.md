@@ -10,4 +10,8 @@ Running the application
 - json-serve data.json (in the folder "/data")
 - npm serve
 
+or
+- npm run dev
+
+
 
