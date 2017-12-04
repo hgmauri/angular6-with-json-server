@@ -6,11 +6,15 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { NomeService } from './shared/services/nomes.service';
 import { HeaderComponent } from './shared/components/header/header.component';
+import { MenuComponent } from './shared/components/menu/menu.component';
+import { RootComponent } from './shared/components/root/root.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    MenuComponent,
+    RootComponent
   ],
   imports: [
     BrowserModule,
