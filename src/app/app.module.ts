@@ -7,14 +7,14 @@ import { AppComponent } from './app.component';
 import { NomeService } from './shared/services/nomes.service';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { MenuComponent } from './shared/components/menu/menu.component';
-import { RootComponent } from './shared/components/root/root.component';
+import { PageComponent } from './shared/components/page/page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     MenuComponent,
-    RootComponent
+    PageComponent
   ],
   imports: [
     BrowserModule,
@@ -24,4 +24,6 @@ import { RootComponent } from './shared/components/root/root.component';
   providers: [NomeService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+
+}

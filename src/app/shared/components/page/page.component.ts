@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 
-import { NomeService } from '../app/shared/services/nomes.service'
+import { NomeService } from './../../services/nomes.service'
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './root.component.html',
-  styleUrls: ['./root.component.css']
+  selector: 'app-page',
+  templateUrl: './page.component.html',
+  styleUrls: ['./page.component.css']
 })
 
-export class RootComponent implements OnInit {
+export class PageComponent implements OnInit {
 
   nomes = [];
   
