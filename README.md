@@ -1,12 +1,13 @@
-# angular5-with-json-server
+# angular6-with-json-server
 
 Simple Angular project
 
-- Angular 5
+- Angular 6
 - Angular CLI 1.5.0
 - Json Server
 
 Running the application
+- npm install
 - json-serve data.json (in the folder "/data")
 - npm serve
 
